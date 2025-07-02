@@ -11,6 +11,7 @@ const modal = document.getElementById('modal');
 const modalContent = document.getElementById('modal-content');
 const closeModal = document.querySelector('.close');
 
+
 // Add event listeners when page loads
 document.addEventListener('DOMContentLoaded', function() {
     // Set up button click handler

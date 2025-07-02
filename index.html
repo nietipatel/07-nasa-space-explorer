@@ -16,7 +16,13 @@
     <div class="filters">
       <input type="date" id="startDate" />
       <input type="date" id="endDate" />
-      <button>Get Space Images</button>
+      <button id="getImagesBtn">Get Space Images</button>
+    </div>
+
+    <!-- Random Space Fact Section -->
+    <div id="space-fact" class="space-fact">
+      <h2>🌌 Did You Know?</h2>
+      <p id="fact-text">Loading a fascinating space fact...</p>
     </div>
 
     <div id="gallery" class="gallery">
@@ -25,6 +31,13 @@
         <p>Select a date range and click "Get Space Images" to explore the cosmos!</p>
       </div>
     </div>
+  </div>
+
+  <!-- Modal for detailed image view -->
+  <div id="modal" class="modal">
+      <div id="modal-content">
+          <!-- Modal content will be dynamically inserted here -->
+      </div>
   </div>
 
   <script src="js/dateRange.js"></script>
